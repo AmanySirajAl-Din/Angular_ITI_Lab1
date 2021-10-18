@@ -22,12 +22,6 @@
         (Folder will be added to app folder
         includs 4 files [html, css, ts, spec.ts])
 
-        /*** Notes ***/
-        Component files:
-        .html -> for html structure
-        .css -> for css only for its component
-        .ts -> For my logic
-        selector: 'app-<componentName>' -> the name to use the component
 
         /*== Other Flags ==*/
         >>ng generate component --help  
@@ -43,10 +37,11 @@
         (Folder will be added to app folder
         includs 4 files [html, css, ts])
         No spec.ts file for test
-- Delete Component:
-        - Open the angular app in your favorite code editor.
-        - Navigate to the component folder and delete it.
-        - Open your app. module. ts file and follow the below steps.
-            - Remove the component import statement.
-            - Remove the component declaration from the @Ngmodule declarations array.
 
+    - Component files:
+        .html -> for html structure
+        .css -> for css only for its component
+        .ts -> For my logic
+        selector: 'app-<componentName>' -> the name to use the component
+
+    
