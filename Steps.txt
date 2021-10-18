@@ -1,0 +1,44 @@
+- Install Angular
+    >>npm install -g @angular/cli
+    >>ng new my-app
+
+- Install Bootstrap: 
+    >>npm install bootstrap
+
+- Inject Bootstrap in "angular.json" file
+	- "styles": "./node_modules/bootstrap/dist/css/bootstrap.min.css"
+	- "scripts: "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+
+- Run Angular server:
+    >>ng serve -o
+
+- For Genetating Components:
+============================
+>>ng genetate component <componentName> 
+Or
+>>ng g c <componentName> 
+(Folder will be added to app folder
+ includs 4 files [html, css, ts, spec.ts])
+
+/*** Notes ***/
+Components files:
+.html > for html structure
+.css > for css only for its component
+.ts > 
+
+/*== Other Flags ==*/
+>>ng generate component --help  
+(for commands can be used)
+
+>>ng genetate component <componentName> --dryRun (-d)
+NOTE: The "dryRun" flag means no changes were made.
+
+>>ng genetate component <componentName> --flat
+(4 files [html, css, ts, spec.ts] in app folder with no folder)
+
+>>ng genetate component <componentName> --skip-tests
+(Folder will be added to app folder
+ includs 4 files [html, css, ts])
+No spec.ts file for test
+
+
