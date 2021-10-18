@@ -1,0 +1,52 @@
+- Install Angular
+    >>npm install -g @angular/cli
+    >>ng new my-app
+
+- Install Bootstrap: 
+    >>npm install bootstrap
+
+- Inject Bootstrap in "angular.json" file
+	- "styles": "./node_modules/bootstrap/dist/css/bootstrap.min.css"
+	- "scripts: "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+
+- Run Angular server:
+    >>ng serve -o
+
+- Components:
+============================
+    NOTE: The start point of Angular app is the "app component"
+    - Genetating Component: 
+        >>ng genetate component <componentName> 
+        Or
+        >>ng g c <componentName> 
+        (Folder will be added to app folder
+        includs 4 files [html, css, ts, spec.ts])
+
+        /*** Notes ***/
+        Component files:
+        .html -> for html structure
+        .css -> for css only for its component
+        .ts -> For my logic
+        selector: 'app-<componentName>' -> the name to use the component
+
+        /*== Other Flags ==*/
+        >>ng generate component --help  
+        (for commands can be used)
+
+        >>ng genetate component <componentName> --dryRun (-d)
+        NOTE: The "dryRun" flag means no changes were made.
+
+        >>ng genetate component <componentName> --flat
+        (4 files [html, css, ts, spec.ts] in app folder with no folder)
+
+        >>ng genetate component <componentName> --skip-tests
+        (Folder will be added to app folder
+        includs 4 files [html, css, ts])
+        No spec.ts file for test
+- Delete Component:
+        - Open the angular app in your favorite code editor.
+        - Navigate to the component folder and delete it.
+        - Open your app. module. ts file and follow the below steps.
+            - Remove the component import statement.
+            - Remove the component declaration from the @Ngmodule declarations array.
+
