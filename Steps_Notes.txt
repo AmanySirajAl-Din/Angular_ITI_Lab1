@@ -44,4 +44,10 @@
         .ts -> For my logic
         selector: 'app-<componentName>' -> the name to use the component
 
-    
+    - Delete Component:
+        - Open the angular app in your favorite code editor.
+        - Navigate to the component folder and delete it.
+        - Open your app. module. ts file and follow the below steps.
+            - Remove the component import statement.
+            - Remove the component declaration from the @Ngmodule declarations array.
+
