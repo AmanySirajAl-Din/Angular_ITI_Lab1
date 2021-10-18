@@ -42,7 +42,10 @@
         .html -> for html structure
         .css -> for css only for its component
         .ts -> For my logic
-        selector: 'app-<componentName>' -> the name to use the component
+        on its Meta data
+        selector: 'app-component-name' -> the name to use the component
+        <app-component-name></app-component-name>
+        templateUrl, styleUrls -> to link its html and style 
 
     - Delete Component:
         - Open the angular app in your favorite code editor.
