@@ -36,16 +36,7 @@
         >>ng genetate component <componentName> --skip-tests
         (Folder will be added to app folder
         includs 4 files [html, css, ts])
-        No spec.ts file for test
-
-    - Component files:
-        .html -> for html structure
-        .css -> for css only for its component
-        .ts -> For my logic
-        on its Meta data
-        selector: 'app-component-name' -> the name to use the component
-        <app-component-name></app-component-name>
-        templateUrl, styleUrls -> to link its html and style 
+        No spec.ts file for test 
 
     - Delete Component:
         - Open the angular app in your favorite code editor.
@@ -54,3 +45,10 @@
             - Remove the component import statement.
             - Remove the component declaration from the @Ngmodule declarations array.
 
+    NOTE: Component is a class fires from its constructor
+    NOTE: Component have lifecycle methods (to check its state):
+        - ngOnInit() -> initialize it
+        - ngDoCheck()
+        - ngOnDestroy()
+        - ngAfterViewInit() -> runs after initialization
+        /** Check the lec.pdf **/
