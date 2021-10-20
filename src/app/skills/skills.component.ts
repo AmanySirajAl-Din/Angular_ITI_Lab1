@@ -9,13 +9,13 @@ export class SkillsComponent implements OnInit {
   constructor() {}
 
   skillsArr: Array<object> = [
-    { name: 'HTML', degree: '5' },
-    { name: 'CSS', degree: '4' },
-    { name: 'JavaScript', degree: '5' },
-    { name: 'Angular', degree: '3' },
-    { name: 'React', degree: '3' },
-    { name: 'Bootstrap', degree: '5' },
-    { name: 'API', degree: '2' },
+    { name: 'HTML', degree: '100' },
+    { name: 'CSS', degree: '100' },
+    { name: 'JavaScript', degree: '100' },
+    { name: 'Angular', degree: '75' },
+    { name: 'React', degree: '75' },
+    { name: 'Bootstrap', degree: '100' },
+    { name: 'API', degree: '50' },
   ];
 
   ngOnInit(): void {}
