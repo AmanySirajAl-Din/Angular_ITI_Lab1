@@ -91,3 +91,16 @@
         [(ngModule)]="nameVar"
         must import formsModule inside app module > imports:
         [()] => banana end box
+
+- Directives:
+============================
+    Instructions to the DOM .. like =>
+    - if, else
+    - interpolation
+    - change style base on condition
+
+    Its Types:
+        - Component Directives
+        - Structural Directives
+        - Attribute Directives
+    /** Check the lec.pdf **/
