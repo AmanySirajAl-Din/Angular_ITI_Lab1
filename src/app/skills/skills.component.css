@@ -5,3 +5,18 @@ h2 {
 p {
     font-size: small;
 }
+
+.skill-div label {
+    background-color: #959188;
+    color: white;
+}
+
+.progress {
+    height: 2rem;
+    border-radius: 0;
+}
+
+.progress-bar {
+    background-color: #d8ccb3;
+    /* height: 100% !important; */
+}
