@@ -58,3 +58,36 @@
         - ngOnDestroy()
         - ngAfterViewInit() -> runs after initialization
         /** Check the lec.pdf **/
+
+- Data Binding:
+============================
+    1- String interpolation:
+        **To send data from .ts to .html**
+        ex.
+            * Initialize var in .ts => name: string = "Amany"
+            * Call var in .html => {{name}}
+    
+    2- Property Binding:
+        **To make dynamic Property**
+        **To send data from .html to .ts**
+        ex.
+           imgSrcVar: string = "img/image1.png"
+           <img [src]="imgSrcVar">
+
+           isDisabledVar: boolean = false
+           <button [disabled]="isDisabledVar"
+    
+    3- Event Binding:
+        **To bind Events**
+        ex.
+            clickMeFun(){...}
+            <button (click)="clickMeFun()"
+
+            changeFun(evt){...}
+            <input (keyup)="changeFun($event)">
+
+    4- NgModule: (2 way Binding )
+        ** bind 1 + 2 + 3 **
+        [(ngModule)]="nameVar"
+        must import formsModule inside app module > imports:
+        [()] => banana end box
