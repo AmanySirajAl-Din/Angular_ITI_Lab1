@@ -1,0 +1,13 @@
+h2 {
+    text-shadow: 2px 2px 0px #c0bfbf9c;
+}
+
+.bg-beig {
+    background-color: #959188;
+}
+
+.card {
+    width: 15rem;
+    height: 15rem;
+    padding: 4rem 0;
+}

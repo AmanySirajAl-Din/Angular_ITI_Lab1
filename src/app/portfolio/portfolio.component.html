@@ -1,1 +1,13 @@
-<p>portfolio works!</p>
+<section class="container-fluid row m-0 p-5">
+    <div class="row">
+        <h2 class="">Portfolio</h2>
+    </div>
+    <div class="cards row text-center">
+        <div class="card shadow m-4 px-3  text-light align-middle" *ngFor="let project of myProjects; let i = index" [ngClass]="i % 2 == 0 ? 'bg-dark' : 'bg-beig'">
+            <h3>{{project}}</h3>
+            <h3>___________</h3>
+        </div>
+    </div>
+
+
+</section>
